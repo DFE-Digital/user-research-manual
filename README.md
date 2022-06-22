@@ -4,7 +4,7 @@ within the [Department for Education (DfE)](https://www.gov.uk/government/organi
 to follow when designing services.
 
 It complements the [GDS Service Manual](https://www.gov.uk/service-manual) and its
-[technology section](https://www.gov.uk/service-manual/technology),
+[user research section](https://www.gov.uk/service-manual/user-research),
 which covers service design more broadly.
 
 It should be used in conjunction with the
