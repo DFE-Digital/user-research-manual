@@ -1,0 +1,41 @@
+title: DfE Architecture
+
+permalink: pretty
+
+header_links:
+  GitHub: https://github.com/DFE-Digital/user-research
+
+footer_links:
+  Accessibility: https://dfe-digital.github.io/architecture/accessibility
+
+defaults:
+  -
+    scope:
+      path: "principles"
+    values:
+      principle: true
+  -
+    scope:
+      path: "standards"
+    values:
+      standard: true
+  -
+    scope:
+      path: "patterns"
+    values:
+      pattern: true
+  -
+    scope:
+      path: "components"
+    values:
+      component: true
+  -
+    scope:
+      path: "repositories"
+    values:
+      repository: true
+  -
+    scope:
+      path: "capability"
+    values:
+      capability: true
