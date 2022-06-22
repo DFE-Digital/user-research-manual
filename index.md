@@ -1,4 +1,4 @@
-# DfE Usr Research
+# DfE Usr Research **Site Currently in Development**
 This site documents the User Research principles, standards and guidance that we expect teams working
 within the [Department for Education (DfE)](https://www.gov.uk/government/organisations/department-for-education)
 to follow when designing services.
@@ -13,45 +13,3 @@ when building digital services.
 
 ## Profession
 
-- [Architecture profession](profession/architecture-profession)
-- [Architecture community](profession/architecture-community)
-
-## Principles
-
-{% assign principle_groups = site.pages
-  | where: "principle", true %}
-
-{% for principle in principle_groups %}
-- [{{ principle.title }}]({{ principle.url | relative_url }})
-{% endfor %}
-- [Technical Architecture Principles](https://technical-guidance.education.gov.uk/principles/architecture/#technical-architecture-principles)
-
-## Standards
-
-{% assign standard_groups = site.pages
-  | where: "standard", true %}
-
-{% for standard in standard_groups %}
-- [{{ standard.title }}]({{ standard.url | relative_url }})
-{% endfor %}
-
-## Patterns
-
-{% assign pattern_groups = site.pages
-  | where: "pattern", true %}
-
-{% for pattern in pattern_groups %}
-- [{{ pattern.title }}]({{ pattern.url | relative_url }})
-{% endfor %}
-
-
-
-## Repositories
-
-- [DfE SharePoint repo](https://educationgovuk.sharepoint.com/sites/gp/WorkplaceDocuments)
-- [DfE Digital Confluence](https://dfedigital.atlassian.net)
-- [ESFA Confluence](https://skillsfundingagency.atlassian.net)
-
-## Capability
-
-- [Architecture Capability Framework](capability/architecture-capability-framework.md)
