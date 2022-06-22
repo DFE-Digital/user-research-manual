@@ -13,7 +13,7 @@ when building digital services.
 
 ## Adding new guidance
 
-Create a new Markdown (.md) file in the [DfE Architecture repo](https://github.com/DFE-Digital/enterprise-architecture) that follows this pattern, add a link to it
+Create a new Markdown (.md) file in the [DfE User Research](https://github.com/DFE-Digital/user-research) that follows this pattern, add a link to it
 from this page, and make a pull request:
 
 ```markdown
