@@ -1,4 +1,4 @@
-name: Deploy user research manual to GitHub Pages
+name: Deploy UR in DfE to GitHub Pages
 
 on:
   push:
