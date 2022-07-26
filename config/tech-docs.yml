@@ -2,13 +2,23 @@
 # host: apply-service-standard.education.gov.uk
 
 # Header-related options
+
+#IF YOU CHANGE THIS FILE, DO CTRL+C THEN RUN BUNDLE EXEC MIDDLEMAN SERVER
+
 show_govuk_logo: false
 service_name: User Research
-service_link: https://user-research.education.gov.uk
-phase: 
+service_link: /
+show_footer: true
+phase: beta
 
 # Links to show on right-hand-side of header
 header_links:
+  Contribute: /contribute.html
+  Give feedback: /give-feedback.html
+  New starters: /new-starters.html
+
+footer_links:
+    Slack Channel: https://join.slack.com/share/enQtMzgzMDk5MTY2Nzg5NS01OTNkODIxOWI5YWIzM2I2ZGZhZDJmMTNjOWU4ZDZkMTU4YThiMzBmM2YwNzkzODhlYTg2N2FhYTQ1NWM4YmZi
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true

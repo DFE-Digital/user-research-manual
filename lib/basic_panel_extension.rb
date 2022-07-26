@@ -8,7 +8,7 @@ class BasicPanel < Middleman::Extension
         <<~EOS
         <div class='dfe-panel'>
         <p>#{content}</p>
-        </div>
+        </div><br/>
         EOS
       
       end
