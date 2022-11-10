@@ -9,13 +9,14 @@ show_govuk_logo: false
 service_name: User Research
 service_link: /
 show_footer: true
-phase: beta
+phase: alpha
 
 # Links to show on right-hand-side of header
 header_links:
-  Contribute: /contribute.html
-  Give feedback: /give-feedback.html
+  Template library: /templates.html
   New starters: /new-starters.html
+  Give feedback: /give-feedback.html
+  About: /about.html
 
 footer_links:
     Slack Channel: https://join.slack.com/share/enQtMzgzMDk5MTY2Nzg5NS01OTNkODIxOWI5YWIzM2I2ZGZhZDJmMTNjOWU4ZDZkMTU4YThiMzBmM2YwNzkzODhlYTg2N2FhYTQ1NWM4YmZi
@@ -24,7 +25,7 @@ footer_links:
 enable_search: true
 
 # Tracking ID from Google Analytics (e.g. UA-XXXX-Y)
-ga_tracking_id:
+ga_tracking_id: G-MG7SJ8T54H
 
 # Enable multipage navigation in the sidebar
 multipage_nav: true
