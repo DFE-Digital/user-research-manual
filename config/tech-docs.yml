@@ -13,10 +13,8 @@ phase: alpha
 
 # Links to show on right-hand-side of header
 header_links:
-  Template library: /templates.html
-  New starters: /new-starters.html
   Give feedback: /give-feedback.html
-  About: /about.html
+  Contribute: /contribute.html
 
 footer_links:
     Slack Channel: https://join.slack.com/share/enQtMzgzMDk5MTY2Nzg5NS01OTNkODIxOWI5YWIzM2I2ZGZhZDJmMTNjOWU4ZDZkMTU4YThiMzBmM2YwNzkzODhlYTg2N2FhYTQ1NWM4YmZi
