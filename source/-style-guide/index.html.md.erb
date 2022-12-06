@@ -1,22 +1,38 @@
 ---
-title: Content style guide
+title: Style guide and patterns
 hide_in_navigation: true
 ---
 
 <%= partial "ga" %>
 
-# Content style guide
+# Style guide and patterns
 
-We speak to the reader ("you should" not "user researchers should")
+## Content style guide
 
-We don’t repeat what DfE is saying elsewhere (e.g. link to a relevant page on the intranet, rather than repeating or paraphrasing it)
+- We speak to the reader ("you should" not "user researchers should")
+- We don’t repeat what DfE is saying elsewhere (e.g. link to a relevant page on the intranet, rather than repeating or paraphrasing it)
+- We don't simply repeat or paraphrase GOV.UK content, we link to it - unless we’re adding extra context or information (while linking to the original GOV.UK content)
+- If content is still in development or in beta, we clearly state this
+- We open all links in the same browser tab (i.e. don’t use target=“_blank”) except for opening Slack channels and otherwise taking users out of the browser.
+- 'Particpants' or 'research particpants', not 'users'
+- We follow the <a href="https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style">GDS content style guide</a>
 
-We don't simply repeat or paraphrase GOV.UK content, we link to it - unless we’re adding extra context or information (while linking to the original GOV.UK content)
 
-If content is still in development or in beta, we clearly state this
+## Patterns
 
-We open all links in the same browser tab (i.e. don’t use target=“_blank”) except for opening Slack channels and otherwise taking users out of the browser.
+### Beta content
 
-'Particpants' or 'research particpants', not 'users'
+If the content isn't finished or is likely to change, we state that it's in beta and add this block to the top of the page (directly under the H1). The wording can change slightly as needed, but make sure there it includes the link to the feedback page.
 
-We follow the GDS content style guide
+<blockquote>
+<p><strong class="govuk-tag">Beta</strong> This guidance has been written by our user research community, and is in beta. It is likely to change over time.</p>
+<p>Your <a href="/give-feedback.html">feedback</a> will help develop it</p>
+</blockquote>
+
+### Critical content
+
+If the page contains something critical that a UR must or must not do, we show a warning at the top of the page. This should come below the H1 (and below the Beta message is this is present). 'Critical' means that the department could get in legal trouble, the user researcher could be breaking the terms of their employment, a team could fail assesssment, or some other serious consequence.
+
+<%= warning_text("If you don't research inclusively then you are not meeting <a href=\"https://apply-the-service-standard.education.gov.uk/service-standard/\">the service standard</a>. <br>You may also be breaking equality law")%>
+
+### Must/Must Not/Can lists
