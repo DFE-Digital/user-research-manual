@@ -9,7 +9,7 @@ show_govuk_logo: false
 service_name: User Research
 service_link: /
 show_footer: true
-phase: alpha
+phase: beta
 
 # Links to show on right-hand-side of header
 header_links:
